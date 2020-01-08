@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+  height: 80vh;
+  width: 35vw;
+  background-color: #CBE9E9;
+  border-radius: 2rem;
+  transform: translate(30%,15%);
+}
+
+.dp {
+  position: absolute;
+  top: 3%;
+  left: 35%;
+  height: 14rem;
+  width: 14rem;
+  border-radius: 50%;
+}
+
+.labels{
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.one{
+  top: 42%;
+}
+
+.two{
+  top: 49%;
+}
+
+.three{
+  top: 58%;
+  font-weight: bold;
+}
+
+.four{
+  top: 65%;
+}
+
+.five{
+  top: 72%;
+}
+
+.six{
+  top: 79%;
+}
+
+.seven{
+  top: 84.6%;
+  left: 9%;
+}
+
+a:link,a:visited{
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.save{
+  color: black;
+  position: absolute;
+  top: 92%;
+  left: 40%;
+  padding: 1rem 2rem;
+  border: 1.3px solid black;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+#name{
+  position: absolute;
+  top: 34%;
+  left: 53%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#prevPass{
+  position: absolute;
+  top: 64%;
+  left: 53%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#newPass{
+  position: absolute;
+  top: 71%;
+  left: 53%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#newPassConf{
+  position: absolute;
+  top: 78%;
+  left: 53%;
+  width: 45%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#showPassword{
+  position: absolute;
+  top: 85%;
+  left: 5%;
+}
+
+.back{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 5vh;
+  width: 3vw;
+}
+
+.mainHeading{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  color: #373B44;
+}
+
+.steps{
+  position: absolute;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  top: 40%;
+  left: 55%;
+  color: #373B44;
+}
+
+.tw {
+  top: 45%;
+}
+
+.th{
+  top: 50%;
+}
+
+.fo{
+  top: 55%;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Create Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cresume.css">
+    <link rel="stylesheet" href="build/css/intlTelInput.css">
+
+  </head>
+  <body>
+
+    <a href="Dashboard.html"><img src="back.svg" class="back" alt=""></a>
+
+    <div class="progressBar">
+      <div class="color"></div>
+    </div>
+
+    <h2 class="stats">0%</h2>
+
+    <div class="card">
+      <div class="contentMain">
+        <h2 class="heading" id='one'>Personal Details</h2>
+
+        <form class="personal" autocomplete="off">
+          <label for="name" class="description">Name:</label>
+          <input type="text" id="name" class="field">
+
+          <label for="dob" class="description two">Date of Birth:</label>
+          <input type="date" id="dob" class="field two">
+
+          <label for="address" class="description three">Address:</label>
+          <input type="text" id="address" class="field three">
+
+          <label for="mobile" class="description four">Mobile:</label>
+          <!-- <input type="tel" id="mobile" class="field four"> -->
+          <input id="phone" name="phone" type="tel" class="num">
+
+          <label for="email" class="description five">Email:</label>
+          <input type="email" id="email" class="field five">
+
+          <label for="content" class="description six">About yourself:</label>
+          <textarea name="" id="content" cols="30" rows="7" class="about"></textarea>
+        </form>
+
+        <a href="#" class="next">Next</a>
+
+      </div>
+    </div>
+
+    <div class="cardRight1">
+      <div class="contentMain">
+        <h2 class="heading" id='two'>Educational Details</h2>
+
+        <form class="education" autocomplete="off">
+
+          <label for="college" class="description">College:</label>
+          <input type="text" id="college" class="field" placeholder="Name">
+          <input type="text" class="field e2" placeholder="Address">
+          <input type="text" class="field e3" placeholder="CGPA / Percentage">
+
+          <label for="highSchool" class="description h1">Higher education:</label>
+          <input type="text" id="highSchool" class="field h1" placeholder="Name">
+          <input type="text" class="field h2" placeholder="Address">
+          <input type="text" class="field h3" placeholder="CGPA / Percentage">
+
+          <label for="primaryEdn" class="description p1">Primary Education:</label>
+          <input type="text" id="primaryEdn" class="field p1" placeholder="Name">
+          <input type="text" class="field p2" placeholder="Address">
+          <input type="text" class="field p3" placeholder="CGPA / Percentage">
+
+        </form>
+        <a href="#" class="next1">Next</a>
+
+      </div>
+    </div>
+
+    <div class="cardRight2">
+      <div class="contentMain">
+        <h2 class="heading" id='three'>Skills</h2>
+          <form action="#" class="skills">
+
+            <div class="box1">
+            <input type="text" class="dataField" id="skill1">
+            <input type="text" class="dataField" id="skill2">
+            <input type="text" class="dataField" id="skill3">
+            <input type="text" class="dataField" id="skill4">
+            </div>
+
+        <h2 class="heading" id='five'>Experience</h2>
+
+            <div class="box2">
+            <input type="text" class="dataField" id="exp1">
+            <input type="text" class="dataField" id="exp2">
+            <input type="text" class="dataField" id="exp3">
+            </div>
+        </form>
+        <a href="#" class="next2">Next</a>
+
+      </div>
+    </div>
+
+    <div class="cardRight3">
+      <div class="contentMain">
+        <h2 class="heading" id='four'>Companies to opt</h2>
+        <a href="#" class="next3">Submit</a>
+
+      </div>
+    </div>
+
+    <script src="build/js/intlTelInput.js"></script>
+
+    <script src="cresume.js" charset="utf-8"></script>
+      <!-- <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+          utilsScript: "build/js/utils.js",
+        });
+      </script> -->
+
+
+
+  </body>
+</html>
